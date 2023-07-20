@@ -1,10 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./components/About";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import SocialLinks from "./components/SocialLinks";
+
 
 function App() {
   return (
     <div >
-      <h1> hello</h1>
+      <NavBar />
+      <Home/>
+      <About/>
+
+      <SocialLinks/>
     </div>
   );
 }
