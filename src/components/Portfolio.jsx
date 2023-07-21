@@ -11,26 +11,38 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      demo: "https://leetcode.com/grraghav/",
+      code: "https://leetcode.com/grraghav/",
     },
     {
       id: 2,
       src: reactParallax,
+      demo: "https://leetcode.com/grraghav/",
+      code: "https://leetcode.com/grraghav/",
     },
     {
       id: 3,
       src: navbar,
+      demo: "https://leetcode.com/grraghav/",
+      code: "https://leetcode.com/grraghav/",
     },
     {
       id: 4,
       src: reactSmooth,
+      demo: "https://leetcode.com/grraghav/",
+      code: "https://leetcode.com/grraghav/",
     },
     {
       id: 5,
       src: installNode,
+      demo: "https://leetcode.com/grraghav/",
+      code: "https://leetcode.com/grraghav/",
     },
     {
       id: 6,
       src: reactWeather,
+      demo: "https://leetcode.com/grraghav/",
+      code: "https://leetcode.com/grraghav/",
     },
   ];
 
@@ -48,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-16">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -57,10 +69,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                 <a href = {demo}> Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  <a href = {code}>Code</a>
                 </button>
               </div>
             </div>
