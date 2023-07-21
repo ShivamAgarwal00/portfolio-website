@@ -6,18 +6,17 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
-
 function App() {
   return (
-    <div >
+    <div>
       <NavBar />
-      <Home/>
-      <About/>
-      <Portfolio/>
+      <Home />
+      <About />
+      <Portfolio />
       <Experience />
-      <Contact/>
+      <Contact />
 
-      <SocialLinks/>
+      <SocialLinks />
     </div>
   );
 }
