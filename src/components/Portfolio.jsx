@@ -1,5 +1,5 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import cryptohunter from "../assets/portfolio/cryptohunter.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -10,21 +10,21 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      demo: "https://leetcode.com/grraghav/",
-      code: "https://leetcode.com/grraghav/",
+      src: cryptohunter,
+      demo: "https://crypto-hunter.netlify.app/",
+      code: "https://github.com/ShivamAgarwal00/Crypto-Hunter",
     },
     {
       id: 2,
       src: reactParallax,
       demo: "https://leetcode.com/grraghav/",
-      code: "https://leetcode.com/grraghav/",
+      code: "https://github.com/ShivamAgarwal00/E-Commerce-App",
     },
     {
       id: 3,
       src: navbar,
-      demo: "https://leetcode.com/grraghav/",
-      code: "https://leetcode.com/grraghav/",
+      demo: "https://github.com/ShivamAgarwal00/CRUD-application",
+      code: "https://github.com/ShivamAgarwal00/CRUD-application",
     },
     {
       id: 4,
