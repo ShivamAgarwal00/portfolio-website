@@ -1,10 +1,10 @@
 import React from "react";
 import cryptohunter from "../assets/portfolio/cryptohunter.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import drummkit from "../assets/portfolio/drummkit.png";
+import allusersafteraadding from "../assets/portfolio/all users after adding.png";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import publish from "../assets/portfolio/publish.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,32 +17,32 @@ const Portfolio = () => {
     {
       id: 2,
       src: reactParallax,
-      demo: "https://leetcode.com/grraghav/",
+      demo: "https://github.com/ShivamAgarwal00/E-Commerce-App",
       code: "https://github.com/ShivamAgarwal00/E-Commerce-App",
     },
     {
       id: 3,
-      src: navbar,
+      src: allusersafteraadding,
       demo: "https://github.com/ShivamAgarwal00/CRUD-application",
       code: "https://github.com/ShivamAgarwal00/CRUD-application",
     },
     {
       id: 4,
       src: reactSmooth,
-      demo: "https://leetcode.com/grraghav/",
-      code: "https://leetcode.com/grraghav/",
+      demo: "https://github.com/ShivamAgarwal00/crypto-steno-graphy",
+      code: "https://github.com/ShivamAgarwal00/crypto-steno-graphy",
     },
     {
       id: 5,
-      src: installNode,
-      demo: "https://leetcode.com/grraghav/",
-      code: "https://leetcode.com/grraghav/",
+      src: drummkit,
+      demo: "https://drumm-kiit.netlify.app/",
+      code: "https://github.com/ShivamAgarwal00/Drum-Kit",
     },
     {
       id: 6,
-      src: reactWeather,
-      demo: "https://leetcode.com/grraghav/",
-      code: "https://leetcode.com/grraghav/",
+      src: publish,
+      demo: "https://github.com/ShivamAgarwal00/Blog-website",
+      code: "https://github.com/ShivamAgarwal00/Blog-website",
     },
   ];
 
@@ -54,7 +54,7 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4   mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>

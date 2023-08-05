@@ -1,18 +1,20 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { SiLinktree} from "react-icons/si";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
     {
+      
       id: 1,
       child: (
         <>
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/shivamagarwal2002/",
       style: "rounded-tr-md",
     },
     {
@@ -22,10 +24,19 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://github.com/ShivamAgarwal00",
     },
     {
       id: 3,
+      child: (
+        <>
+          Coding-Profiles <SiLinktree size={30} />
+        </>
+      ),
+      href: "https://linktr.ee/shivam_agarwal799",
+    },
+    {
+      id: 4,
       child: (
         <>
           Mail <HiOutlineMail size={30} />
@@ -34,7 +45,7 @@ const SocialLinks = () => {
       href: "mailto:foo@gmail.com",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
